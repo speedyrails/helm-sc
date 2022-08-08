@@ -33,8 +33,8 @@ spec:
         args:
         - cd /home/app/webapp ; /usr/sbin/cron; su -c ./init-worker.sh app
         command:
-        - /bin/sh
-        - -c
+        - "/bin/sh"
+        - "-c"
        resources:
          limits:
            cpu: "1"
