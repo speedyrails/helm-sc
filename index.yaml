@@ -17,6 +17,6 @@ entries:
     digest: a928a1d6839a39fce27822c024e8115231a8ebd03624f17b574b6a1376784865
     name: bettermanager
     urls:
-    - https://github.com/yandrek2/my-helm-charts/releases/download/bettermanager-1.0.0/bettermanager-1.0.0.tgz
+    - https://github.com/yandrek2/my-helm-charts/releases/download/bettermanager-1.1.0/bettermanager-1.1.0.tgz
     version: 1.0.0
 generated: "2022-08-08T14:24:25.107134918Z"
