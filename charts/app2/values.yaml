@@ -8,3 +8,4 @@ app:
     follower_database_url: ""
     rails_env: ""
     redis_url: ""
+    efs_dns: ""    
