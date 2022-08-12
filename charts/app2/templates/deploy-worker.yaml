@@ -35,7 +35,7 @@ spec:
         command:
         - /bin/sh
         - -c
-       resources:
+        resources:
          limits:
            cpu: "1"
            memory: 2Gi
