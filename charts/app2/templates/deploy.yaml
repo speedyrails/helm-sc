@@ -39,8 +39,8 @@ spec:
             - name: Host
               value: {{.Values.app.host}}
             - name: X-Forwarded-Proto
-              value: https
-            path: /users/sign_in
+              value: http
+            path: /
             port: 80
             scheme: HTTP
           initialDelaySeconds: 30
@@ -54,8 +54,8 @@ spec:
             - name: Host
               value: {{.Values.app.host}}
             - name: X-Forwarded-Proto
-              value: https
-            path: /users/sign_in
+              value: http
+            path: /
             port: 80
             scheme: HTTP
           initialDelaySeconds: 30
