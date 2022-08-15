@@ -12,6 +12,14 @@ entries:
     version: 0.1.0
   bettermanager:
   - apiVersion: v1
+    created: "2022-08-15T17:02:00.922494818Z"
+    description: A Helm chart for Kubernetes
+    digest: 0de03e3028303602934261079ce6cd5558cee4caebecc02b17d04f829a6fd2fe
+    name: bettermanager
+    urls:
+    - https://github.com/yandrek2/my-helm-charts/releases/download/bettermanager-1.3.8/bettermanager-1.3.8.tgz
+    version: 1.3.8
+  - apiVersion: v1
     created: "2022-08-15T13:36:02.112830734Z"
     description: A Helm chart for Kubernetes
     digest: 96e250fe6313d878605693d46c123b374fb30e8cb441884abfc70825044c7058
