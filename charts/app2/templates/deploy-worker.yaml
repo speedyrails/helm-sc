@@ -71,4 +71,4 @@ spec:
       volumes:
       - name: vol1
         persistentVolumeClaim:
-          claimName: efs-pvc-{{.Values.app.name}}%
+          claimName: efs-pvc-{{.Values.app.name}}
