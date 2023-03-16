@@ -12,6 +12,14 @@ entries:
     version: 0.1.0
   bettermanager:
   - apiVersion: v1
+    created: "2023-03-16T19:16:06.601477136Z"
+    description: A Helm chart for Kubernetes
+    digest: a85f6e5e36a08fbbd1ef4fb9cb18bd5b42f5cf1025a6d160dd15440f26004b50
+    name: bettermanager
+    urls:
+    - https://github.com/speedyrails/helm-sc/releases/download/bettermanager-1.5.0/bettermanager-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v1
     created: "2022-08-08T14:24:25.466137552Z"
     description: A Helm chart for Kubernetes
     digest: a928a1d6839a39fce27822c024e8115231a8ebd03624f17b574b6a1376784865
