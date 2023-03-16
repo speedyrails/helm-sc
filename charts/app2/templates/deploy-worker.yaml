@@ -44,31 +44,31 @@ spec:
            memory: 1Gi
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
-        volumeMounts:
-        - mountPath: /home/app/webapp/log
-          name: vol1
-          subPath: log
-        - mountPath: /home/app/webapp/public/appcomm
-          name: vol1
-          subPath: public/appcomm
-        - mountPath: /home/app/webapp/public/chatcomm
-          name: vol1
-          subPath: public/chatcomm
-        - mountPath: /home/app/webapp/public/system
-          name: vol1
-          subPath: public/system
-        - mountPath: /tmp/pdfs
-          name: vol1
-          subPath: tmppdfs
-        - mountPath: /home/app/webapp/reports
-          name: vol1
-          subPath: reports
+          #        volumeMounts:
+          #- mountPath: /home/app/webapp/log
+          #name: vol1
+          #subPath: log
+          #- mountPath: /home/app/webapp/public/appcomm
+          #name: vol1
+          #subPath: public/appcomm
+          #- mountPath: /home/app/webapp/public/chatcomm
+          #name: vol1
+          #subPath: public/chatcomm
+          #- mountPath: /home/app/webapp/public/system
+          #name: vol1
+          #subPath: public/system
+          #- mountPath: /tmp/pdfs
+          #name: vol1
+          #subPath: tmppdfs
+          #- mountPath: /home/app/webapp/reports
+          #name: vol1
+          #subPath: reports
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
       securityContext: {}
       terminationGracePeriodSeconds: 0
-      volumes:
-      - name: vol1
-        persistentVolumeClaim:
-          claimName: efs-pvc-{{.Values.app.name}}
+        #volumes:
+        #- name: vol1
+        #persistentVolumeClaim:
+        #  claimName: efs-pvc-{{.Values.app.name}}

@@ -4,7 +4,6 @@ app:
   host: ""
   namespace: ""
   environment: ""
-  efs_dns: ""
   variables:
     database_url: ""
     follower_database_url: ""
